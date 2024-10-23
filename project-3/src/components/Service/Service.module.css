@@ -1,0 +1,32 @@
+.service_container {
+  width: 1440px;
+  height: 600px;
+  background-color: #dee2e6;
+}
+.internal_div {
+  max-width: 880px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 66px auto 89px auto;
+  gap: 10px;
+}
+.internal_container {
+  width: 270px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px;
+  gap: 10px;
+}
+.outer_container {
+  width: 880px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}

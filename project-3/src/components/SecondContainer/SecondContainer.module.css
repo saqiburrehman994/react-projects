@@ -1,0 +1,24 @@
+.second_container {
+  display: flex;
+  max-width: 1440px;
+  height: 550px;
+  background-color: #dee2e6;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.second_container button {
+  width: 115px;
+  height: 44px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: rgba(33, 37, 41, 1);
+  border-radius: 10px;
+  color: white;
+}
+.hello_block {
+  width: 284px;
+  height: 242px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

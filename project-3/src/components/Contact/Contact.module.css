@@ -1,0 +1,39 @@
+.contact_container {
+  width: 1440px;
+  height: 449px;
+  background-color: #d9d9d9;
+}
+.internal_container {
+  width: 821px;
+  height: 381px;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  margin-right: 339px;
+  margin-left: 280px;
+}
+.mycontainer {
+  display: flex;
+  gap: 20px;
+}
+.contact_section {
+  width: 610px;
+  height: 283px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.social_media {
+  width: 191px;
+  height: 214px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.contact_btn {
+  width: 90px;
+  height: 44px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
