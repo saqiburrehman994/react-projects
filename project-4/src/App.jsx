@@ -3,7 +3,7 @@ import StartGame from "./components/StartGame";
 import PlayGame from "./components/PlayGame";
 
 function App() {
-  const [isGameStarted, setisGameStarted] = useState(true);
+  const [isGameStarted, setisGameStarted] = useState(false);
   function handleToggle() {
     setisGameStarted((prev) => !prev);
   }
